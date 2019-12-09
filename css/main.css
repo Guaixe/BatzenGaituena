@@ -11,9 +11,62 @@ header {
   header h1 {
     position: absolute;
     width: 100%;
-    top: 0; }
+    top: 30vh;
+    left: 0;
+    text-align: center; }
+    header h1 img {
+      width: 35vh; }
+  header a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    font-size: 0.9em; }
+    header a img {
+      height: 1.5em;
+      vertical-align: middle;
+      margin-right: 0.5em; }
+    header a#osoa {
+      top: 0;
+      right: 0;
+      font-weight: bold;
+      border: 1px solid white;
+      padding: 1em;
+      text-transform: uppercase; }
+    header a#guaixe {
+      top: 0;
+      left: 0;
+      font-size: 1.2rem; }
+      header a#guaixe:before {
+        content: "";
+        display: inline-block;
+        height: 1px;
+        width: 2em;
+        background: white;
+        vertical-align: middle;
+        margin-right: 0.5em; }
+    header a#bulegoa {
+      bottom: 0;
+      left: 0; }
+    header a#batzen {
+      bottom: 0;
+      right: 0;
+      font-size: 1.2em; }
+    header a#scroll {
+      bottom: 0;
+      left: 40%;
+      width: 20%;
+      text-align: center; }
+      header a#scroll:after {
+        content: "";
+        display: block;
+        height: 2em;
+        width: 1px;
+        background: white;
+        margin: 0.5em auto 0 auto; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: Lato; }
 
 /*# sourceMappingURL=main.css.map */
