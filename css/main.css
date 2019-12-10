@@ -69,4 +69,36 @@ body {
   margin: 0;
   font-family: Lato; }
 
+* {
+  box-sizing: border-box; }
+
+.post {
+  width: 100%;
+  font-size: 0; }
+  .post.grey {
+    background: #eee; }
+    .post.grey section.resume {
+      text-align: left; }
+    .post.grey .player iframe {
+      margin-left: 20%; }
+  .post .video {
+    width: 80%;
+    margin: 0 10%; }
+  .post section.resume, .post .player {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+    padding: 5%;
+    vertical-align: middle; }
+  .post section.resume {
+    text-align: right; }
+    .post section.resume h1 {
+      display: inline-block;
+      border-bottom: 2px solid black;
+      padding-bottom: 0.5em; }
+  .post .player iframe {
+    width: 80%;
+    height: 15rem; }
+
 /*# sourceMappingURL=main.css.map */
