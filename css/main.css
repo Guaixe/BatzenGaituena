@@ -116,4 +116,48 @@ body {
     width: 80%;
     height: 15rem; }
 
+@font-face {
+  font-family: Lato;
+  src: url(../static/fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: Lato;
+  font-weight: bold;
+  src: url(../static/fonts/Lato-Bold.ttf); }
+@font-face {
+  font-family: Lato;
+  font-style: oblique;
+  src: url(../static/fonts/Lato-Italic.ttf); }
+@media screen and (max-width: 520px) {
+  a#osoa {
+    width: 90%;
+    top: 2rem !important; }
+
+  a#bulegoa {
+    display: none; }
+
+  a#batzen {
+    width: 90%;
+    bottom: 3rem !important;
+    text-align: center; }
+
+  a#scroll:after {
+    height: 1em !important; }
+
+  .post .video {
+    width: 100%;
+    margin: 0; }
+    .post .video .resume {
+      width: 100%;
+      text-align: center; }
+    .post .video .player {
+      width: 100%; }
+      .post .video .player iframe {
+        width: 100%;
+        margin: 0;
+        height: 10em; }
+  .post.grey {
+    background: #ccc; }
+  .post#dokumentalOsoa iframe {
+    height: 10rem; } }
+
 /*# sourceMappingURL=main.css.map */
