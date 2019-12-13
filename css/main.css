@@ -165,7 +165,7 @@ body {
       margin: 0; }
       .post.grey .video .resume {
         width: 100%;
-        text-align: center; }
+        text-align: center !important; }
   .post#dokumentalOsoa {
     font-size: 1rem !important; }
     .post#dokumentalOsoa iframe {
