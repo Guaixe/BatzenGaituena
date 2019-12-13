@@ -174,9 +174,11 @@ body {
         height: 10rem; }
 
   h1 {
-    font-size: 50px; }
+    font-size: 50px;
+    text-align: center !important; }
 
   p {
-    font-size: 40px; } }
+    font-size: 40px;
+    text-align: center !important; } }
 
 /*# sourceMappingURL=main.css.map */
