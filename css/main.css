@@ -159,7 +159,7 @@ body {
       margin: 0; }
       .post .video .resume {
         width: 100%;
-        text-align: center; }
+        text-align: center !important; }
       .post .video .player {
         width: 100%; }
         .post .video .player iframe {
