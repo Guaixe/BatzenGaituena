@@ -160,8 +160,14 @@ body {
         height: 10em; }
   .post.grey {
     background: #ccc; }
+    .post.grey .video {
+      width: 100%;
+      margin: 0; }
+      .post.grey .video .resume {
+        width: 100%;
+        text-align: center; }
   .post#dokumentalOsoa {
-    font-size: 1rem; }
+    font-size: 1rem !important; }
     .post#dokumentalOsoa iframe {
       height: 10rem; }
 
