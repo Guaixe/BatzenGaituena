@@ -127,7 +127,7 @@ body {
   font-family: Lato;
   font-style: oblique;
   src: url(../static/fonts/Lato-Italic.ttf); }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1028px) {
   a#osoa {
     width: 90%;
     top: 2rem !important; }
