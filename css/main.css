@@ -129,7 +129,7 @@ body {
   src: url(../static/fonts/Lato-Italic.ttf); }
 @media screen and (max-width: 1028px) {
   a#osoa {
-    font-size: 1rem;
+    font-size: 12pt;
     width: 90%;
     top: 2rem !important; }
 
@@ -160,14 +160,8 @@ body {
         height: 10em; }
   .post.grey {
     background: #ccc; }
-    .post.grey .video {
-      width: 100%;
-      margin: 0; }
-      .post.grey .video .resume {
-        width: 100%;
-        text-align: center !important; }
   .post#dokumentalOsoa {
-    font-size: 1rem !important; }
+    font-size: 1rem; }
     .post#dokumentalOsoa iframe {
       height: 10rem; }
 
