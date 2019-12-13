@@ -129,7 +129,7 @@ body {
   src: url(../static/fonts/Lato-Italic.ttf); }
 @media screen and (max-width: 1028px) {
   a#osoa {
-    font-size: 12pt;
+    font-size: 18px;
     width: 90%;
     top: 2rem !important; }
 
