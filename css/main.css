@@ -152,29 +152,31 @@ body {
   a#guaixe {
     font-size: 40px !important; }
 
-  .post .video {
-    width: 100%;
-    margin: 0; }
-    .post .video .resume {
-      width: 100%;
-      text-align: center; }
-    .post .video .player {
-      width: 100%; }
-      .post .video .player iframe {
-        width: 100%;
-        margin: 0;
-        height: 10em; }
-  .post.grey {
-    background: #ccc; }
-  .post#dokumentalOsoa {
+  .post {
     font-size: 40px !important; }
-    .post#dokumentalOsoa iframe {
-      height: 10rem; }
+    .post .video {
+      width: 100%;
+      margin: 0; }
+      .post .video .resume {
+        width: 100%;
+        text-align: center; }
+      .post .video .player {
+        width: 100%; }
+        .post .video .player iframe {
+          width: 100%;
+          margin: 0;
+          height: 500px; }
+    .post.grey {
+      background: #ccc; }
+    .post#dokumentalOsoa {
+      font-size: 40px !important; }
+      .post#dokumentalOsoa iframe {
+        height: 10rem; }
 
   h1 {
-    font-size: 1.5rem; }
+    font-size: 50px; }
 
   p {
-    font-size: 1rem; } }
+    font-size: 40px; } }
 
 /*# sourceMappingURL=main.css.map */
