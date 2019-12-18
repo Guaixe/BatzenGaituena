@@ -72,6 +72,10 @@ body {
 * {
   box-sizing: border-box; }
 
+a.license {
+  display: block;
+  margin-top: 5rem; }
+
 .post {
   width: 100%;
   font-size: 0; }
@@ -84,7 +88,7 @@ body {
   .post#dokumentalOsoa {
     background: #222; }
     .post#dokumentalOsoa .video {
-      padding: 10%; }
+      padding: 10% 10% 2% 10%; }
     .post#dokumentalOsoa iframe {
       width: 100%;
       margin: 0;
